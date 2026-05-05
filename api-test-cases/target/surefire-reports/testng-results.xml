@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API Test Suite" duration-ms="27355" started-at="2026-05-05T16:41:01 GMT+08:00" finished-at="2026-05-05T16:41:28 GMT+08:00">
+    <groups>
+    </groups>
+    <test name="User API Tests" duration-ms="13206" started-at="2026-05-05T16:41:01 GMT+08:00" finished-at="2026-05-05T16:41:14 GMT+08:00">
+      <class name="com.apitest.cases.testcases.UserApiTest">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="setUp" is-config="true" duration-ms="10" started-at="2026-05-05T16:41:01 GMT+08:00" finished-at="2026-05-05T16:41:01 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.UserApiTest.testCreateUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCreateUser()[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="testCreateUser" duration-ms="3447" started-at="2026-05-05T16:41:01 GMT+08:00" description="创建用户" finished-at="2026-05-05T16:41:04 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="tearDown" is-config="true" duration-ms="1" started-at="2026-05-05T16:41:04 GMT+08:00" finished-at="2026-05-05T16:41:04 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.UserApiTest.testCreateUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="setUp" is-config="true" duration-ms="1" started-at="2026-05-05T16:41:04 GMT+08:00" finished-at="2026-05-05T16:41:04 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.UserApiTest.testDeleteUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDeleteUser()[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="testDeleteUser" duration-ms="1038" started-at="2026-05-05T16:41:04 GMT+08:00" description="删除用户" finished-at="2026-05-05T16:41:05 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="tearDown" is-config="true" duration-ms="8" started-at="2026-05-05T16:41:05 GMT+08:00" finished-at="2026-05-05T16:41:05 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.UserApiTest.testDeleteUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="setUp" is-config="true" duration-ms="1" started-at="2026-05-05T16:41:05 GMT+08:00" finished-at="2026-05-05T16:41:05 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.UserApiTest.testGetUserById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetUserById()[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="testGetUserById" duration-ms="1534" started-at="2026-05-05T16:41:05 GMT+08:00" description="获取单个用户" finished-at="2026-05-05T16:41:07 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserById -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="tearDown" is-config="true" duration-ms="2" started-at="2026-05-05T16:41:07 GMT+08:00" finished-at="2026-05-05T16:41:07 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.UserApiTest.testGetUserById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="setUp" is-config="true" duration-ms="0" started-at="2026-05-05T16:41:07 GMT+08:00" finished-at="2026-05-05T16:41:07 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.UserApiTest.testGetUserList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetUserList()[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="testGetUserList" duration-ms="3590" started-at="2026-05-05T16:41:07 GMT+08:00" description="获取用户列表" finished-at="2026-05-05T16:41:10 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserList -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="tearDown" is-config="true" duration-ms="0" started-at="2026-05-05T16:41:10 GMT+08:00" finished-at="2026-05-05T16:41:10 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.UserApiTest.testGetUserList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="setUp" is-config="true" duration-ms="1" started-at="2026-05-05T16:41:10 GMT+08:00" finished-at="2026-05-05T16:41:10 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.UserApiTest.testLoginFailedWithoutPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginFailedWithoutPassword()[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="testLoginFailedWithoutPassword" duration-ms="1393" started-at="2026-05-05T16:41:10 GMT+08:00" description="用户登录失败-缺少密码" finished-at="2026-05-05T16:41:12 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFailedWithoutPassword -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="tearDown" is-config="true" duration-ms="1" started-at="2026-05-05T16:41:12 GMT+08:00" finished-at="2026-05-05T16:41:12 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.UserApiTest.testLoginFailedWithoutPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="setUp" is-config="true" duration-ms="1" started-at="2026-05-05T16:41:12 GMT+08:00" finished-at="2026-05-05T16:41:12 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.UserApiTest.testLoginSuccess()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginSuccess()[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="testLoginSuccess" duration-ms="1054" started-at="2026-05-05T16:41:12 GMT+08:00" description="用户登录成功" finished-at="2026-05-05T16:41:13 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="tearDown" is-config="true" duration-ms="1" started-at="2026-05-05T16:41:13 GMT+08:00" finished-at="2026-05-05T16:41:13 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.UserApiTest.testLoginSuccess()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="setUp" is-config="true" duration-ms="1" started-at="2026-05-05T16:41:13 GMT+08:00" finished-at="2026-05-05T16:41:13 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.UserApiTest.testUpdateUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUpdateUser()[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="testUpdateUser" duration-ms="1012" started-at="2026-05-05T16:41:13 GMT+08:00" description="更新用户" finished-at="2026-05-05T16:41:14 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.UserApiTest@4596f8f3]" name="tearDown" is-config="true" duration-ms="1" started-at="2026-05-05T16:41:14 GMT+08:00" finished-at="2026-05-05T16:41:14 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.UserApiTest.testUpdateUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.apitest.cases.testcases.UserApiTest -->
+    </test> <!-- User API Tests -->
+    <test name="Resource API Tests" duration-ms="9170" started-at="2026-05-05T16:41:14 GMT+08:00" finished-at="2026-05-05T16:41:23 GMT+08:00">
+      <class name="com.apitest.cases.testcases.ResourceApiTest">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.ResourceApiTest@7dbe2ebf]" name="setUp" is-config="true" duration-ms="1" started-at="2026-05-05T16:41:14 GMT+08:00" finished-at="2026-05-05T16:41:14 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.ResourceApiTest.testGetResourceById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetResourceById()[pri:0, instance:com.apitest.cases.testcases.ResourceApiTest@7dbe2ebf]" name="testGetResourceById" duration-ms="5179" started-at="2026-05-05T16:41:14 GMT+08:00" description="获取单个资源" finished-at="2026-05-05T16:41:19 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResourceById -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.ResourceApiTest@7dbe2ebf]" name="tearDown" is-config="true" duration-ms="1" started-at="2026-05-05T16:41:19 GMT+08:00" finished-at="2026-05-05T16:41:19 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.ResourceApiTest.testGetResourceById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.ResourceApiTest@7dbe2ebf]" name="setUp" is-config="true" duration-ms="1" started-at="2026-05-05T16:41:19 GMT+08:00" finished-at="2026-05-05T16:41:19 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.ResourceApiTest.testGetResourceList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetResourceList()[pri:0, instance:com.apitest.cases.testcases.ResourceApiTest@7dbe2ebf]" name="testGetResourceList" duration-ms="1605" started-at="2026-05-05T16:41:19 GMT+08:00" description="获取资源列表" finished-at="2026-05-05T16:41:21 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResourceList -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.ResourceApiTest@7dbe2ebf]" name="tearDown" is-config="true" duration-ms="0" started-at="2026-05-05T16:41:21 GMT+08:00" finished-at="2026-05-05T16:41:21 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.ResourceApiTest.testGetResourceList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testGetResourceNotFound()[pri:0, instance:com.apitest.cases.testcases.ResourceApiTest@7dbe2ebf]" name="testGetResourceNotFound" duration-ms="2366" started-at="2026-05-05T16:41:21 GMT+08:00" description="获取不存在的资源" finished-at="2026-05-05T16:41:23 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResourceNotFound -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.ResourceApiTest@7dbe2ebf]" name="setUp" is-config="true" duration-ms="0" started-at="2026-05-05T16:41:21 GMT+08:00" finished-at="2026-05-05T16:41:21 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.ResourceApiTest.testGetResourceNotFound()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.ResourceApiTest@7dbe2ebf]" name="tearDown" is-config="true" duration-ms="3" started-at="2026-05-05T16:41:23 GMT+08:00" finished-at="2026-05-05T16:41:23 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.ResourceApiTest.testGetResourceNotFound()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.apitest.cases.testcases.ResourceApiTest -->
+    </test> <!-- Resource API Tests -->
+    <test name="Advanced API Tests" duration-ms="4958" started-at="2026-05-05T16:41:23 GMT+08:00" finished-at="2026-05-05T16:41:28 GMT+08:00">
+      <class name="com.apitest.cases.testcases.AdvancedApiTest">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.AdvancedApiTest@6e4c0d8c]" name="setUp" is-config="true" duration-ms="2" started-at="2026-05-05T16:41:23 GMT+08:00" finished-at="2026-05-05T16:41:23 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.AdvancedApiTest.testPagination()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPagination()[pri:0, instance:com.apitest.cases.testcases.AdvancedApiTest@6e4c0d8c]" name="testPagination" duration-ms="1292" started-at="2026-05-05T16:41:23 GMT+08:00" description="分页查询测试" finished-at="2026-05-05T16:41:24 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPagination -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.AdvancedApiTest@6e4c0d8c]" name="tearDown" is-config="true" duration-ms="1" started-at="2026-05-05T16:41:24 GMT+08:00" finished-at="2026-05-05T16:41:24 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.AdvancedApiTest.testPagination()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.AdvancedApiTest@6e4c0d8c]" name="setUp" is-config="true" duration-ms="1" started-at="2026-05-05T16:41:24 GMT+08:00" finished-at="2026-05-05T16:41:24 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.AdvancedApiTest.testResponseTime()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testResponseTime()[pri:0, instance:com.apitest.cases.testcases.AdvancedApiTest@6e4c0d8c]" name="testResponseTime" duration-ms="1191" started-at="2026-05-05T16:41:24 GMT+08:00" description="响应时间测试" finished-at="2026-05-05T16:41:25 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.AdvancedApiTest@6e4c0d8c]" name="tearDown" is-config="true" duration-ms="2" started-at="2026-05-05T16:41:26 GMT+08:00" finished-at="2026-05-05T16:41:26 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.AdvancedApiTest.testResponseTime()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.AdvancedApiTest@6e4c0d8c]" name="setUp" is-config="true" duration-ms="2" started-at="2026-05-05T16:41:26 GMT+08:00" finished-at="2026-05-05T16:41:26 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.AdvancedApiTest.testWithApiRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testWithApiRequest()[pri:0, instance:com.apitest.cases.testcases.AdvancedApiTest@6e4c0d8c]" name="testWithApiRequest" duration-ms="1307" started-at="2026-05-05T16:41:26 GMT+08:00" description="使用ApiRequest对象发送请求" finished-at="2026-05-05T16:41:27 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithApiRequest -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.AdvancedApiTest@6e4c0d8c]" name="tearDown" is-config="true" duration-ms="1" started-at="2026-05-05T16:41:27 GMT+08:00" finished-at="2026-05-05T16:41:27 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.AdvancedApiTest.testWithApiRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.AdvancedApiTest@6e4c0d8c]" name="setUp" is-config="true" duration-ms="0" started-at="2026-05-05T16:41:27 GMT+08:00" finished-at="2026-05-05T16:41:27 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.AdvancedApiTest.testWithCustomHeaders()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testWithCustomHeaders()[pri:0, instance:com.apitest.cases.testcases.AdvancedApiTest@6e4c0d8c]" name="testWithCustomHeaders" duration-ms="1137" started-at="2026-05-05T16:41:27 GMT+08:00" description="带请求头的请求" finished-at="2026-05-05T16:41:28 GMT+08:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithCustomHeaders -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:com.apitest.cases.testcases.AdvancedApiTest@6e4c0d8c]" name="tearDown" is-config="true" duration-ms="2" started-at="2026-05-05T16:41:28 GMT+08:00" finished-at="2026-05-05T16:41:28 GMT+08:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apitest.cases.testcases.AdvancedApiTest.testWithCustomHeaders()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.apitest.cases.testcases.AdvancedApiTest -->
+    </test> <!-- Advanced API Tests -->
+  </suite> <!-- API Test Suite -->
+</testng-results>

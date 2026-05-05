@@ -1,0 +1,8 @@
+com\apitest\core\api\ApiClient.class
+com\apitest\core\filter\LogFilter.class
+com\apitest\core\listener\TestMethodListener.class
+com\apitest\core\filter\AllureFilter.class
+com\apitest\core\handler\VariableHandler.class
+com\apitest\core\api\ApiClientFactory.class
+com\apitest\core\assertion\ApiAssert.class
+com\apitest\core\listener\TestSuiteListener.class
