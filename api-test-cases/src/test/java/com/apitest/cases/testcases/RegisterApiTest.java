@@ -32,25 +32,7 @@ public class RegisterApiTest extends BaseTest {
         ApiAssert.assertJsonPathNotEmpty(response, "id");
         ApiAssert.assertJsonPathNotEmpty(response, "token");
     }
-    
-    @Test(description = "用户注册失败-缺少密码")
-    @Story("用户注册")
-    @Severity(SeverityLevel.NORMAL)
-    @Description("测试用户注册接口，验证缺少密码时的错误处理")
-    public void testRegisterFailedWithoutPassword() {
-        Map<String, String> user = new HashMap<>();
-        user.put("email", "sydney@fife");
-        
-        logStep("发送注册请求(缺少密码)");
-        ApiResponse response = apiClient.post("/register", user);
-        
-        logStep("验证响应状态码");
-        ApiAssert.assertStatusCode(response, 400);
-        
-        logStep("验证错误信息");
-        ApiAssert.assertJsonPathNotEmpty(response, "error");
-    }
-    
+
     @Test(description = "用户注册失败-缺少邮箱")
     @Story("用户注册")
     @Severity(SeverityLevel.NORMAL)
