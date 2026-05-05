@@ -1,4 +1,5 @@
-com\apitest\cases\testcases\ResourceApiTest.class
+com\apitest\cases\testcases\RegisterApiTest.class
 com\apitest\cases\testcases\AdvancedApiTest.class
+com\apitest\cases\testcases\ResourceApiTest.class
 com\apitest\cases\BaseTest.class
 com\apitest\cases\testcases\UserApiTest.class
